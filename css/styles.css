@@ -1,0 +1,63 @@
+:root {
+    --primary-text-color: rgba(0, 0, 0, 0.8);
+    --accent: #18A0FB;
+    --main-background: #FFFFFF;
+    --main-color: #000000;
+}
+
+
+/*
+Основные цвета
+color: #000000;
+rgba(0, 0, 0, 0.8)
+color: #FFFFFF;
+background: #18A0FB;
+вторичный background: #F5F5F5;
+ */
+
+ .page
+ {
+background-color: #FFFFFF;
+color: rgba(0, 0, 0, 0.8);
+ }
+ .logo {
+color: #000000;
+ }
+ .logo:hover {
+     color: #18A0FB;
+ }
+
+ ul {
+     list-style: none;
+ }
+ /* Site Nav */
+.site-nav .link {
+    color: #18A0FB;
+}
+.site-nav .link:hover, .site-nav .link:focus {
+    color: #000000;
+}
+.section-title {
+    color: #000000;
+}
+/* Features */
+.features .title {
+    color: #000000;
+}
+.features .link {
+    color: #18A0FB;
+}
+/* Button */
+.button {
+color: var(--main-color);
+background-color: var(--main-background);
+
+}
+.button.primary {
+    background-color: var(--accent);
+    color: var(--main-background);
+}
+.button.secondary {
+    background-color: var(--main-background);
+    color: var(--accent);
+}
